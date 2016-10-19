@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_location_caption">
+        <EditTextPreference android:key="data_location_from_email" android:title="@string/pref_location_from_email"  android:summary="@string/pref_location_from_summary" />
+        <EditTextPreference android:key="data_location_pwd_email" android:title="@string/pref_location_pwd_email" android:summary="@string/pref_location_pwd_summary"
+            android:password="true"/>
+
+        <EditTextPreference android:key="data_location_email" android:title="@string/pref_location_email"  android:summary="@string/pref_location_summary" />
+        <EditTextPreference android:key="data_location_timeout" android:title="@string/pref_location_timeout_title" android:numeric="integer" android:summary="@string/pref_location_timeout" android:defaultValue="30"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_title_contact">
+        <EditTextPreference android:key="data_contact_name" android:title="@string/pref_data_contact_name" />
+        <EditTextPreference android:key="data_contact_year_birth" android:title="@string/pref_data_contact_year_birth" android:numeric="integer" android:maxLength="4"/>
+        <EditTextPreference android:key="data_contact_address" android:title="@string/pref_data_contact_address" />
+        <EditTextPreference android:key="data_contact_cod_post" android:title="@string/pref_data_contact_cod_post" android:numeric="integer" android:maxLength="5"/>
+        <EditTextPreference android:key="data_contact_country" android:title="@string/pref_data_contact_country" />
+        <EditTextPreference android:key="data_contact_name_mother" android:title="@string/pref_data_contact_name_mother" />
+        <EditTextPreference android:key="data_contact_tlf_mother" android:title="@string/pref_data_contact_tlf_mother" android:phoneNumber="true"/>
+        <EditTextPreference android:key="data_contact_name_father" android:title="@string/pref_data_contact_name_father" />
+        <EditTextPreference android:key="data_contact_tlf_father" android:title="@string/pref_data_contact_tlf_father" android:phoneNumber="true"/>
+        <EditTextPreference android:key="data_contact_tlf_other" android:title="@string/pref_data_contact_tlf_other" android:phoneNumber="true"/>
+        <Preference android:key="data_contact_avatar" android:title="@string/pref_data_contact_avatar"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Pictogramas">
+        <ListPreference android:key="data_pictogramas_show_text"
+            android:title="@string/pref_pictogramas_show_text"
+            android:summary="@string/pref_pictogramas_show_text_summary"
+            android:entries="@array/data_pictogramas_show_text_options"
+            android:entryValues="@array/data_pictogramas_show_text_values"
+            android:defaultValue="0"/>
+
+        <ListPreference android:key="data_pictogramas_type_fonts"
+            android:title="@string/pref_pictogramas_type_fonts"
+            android:summary="@string/pref_pictogramas_type_fonts_summary"
+            android:entries="@array/data_pictogramas_type_fonts_options"
+            android:entryValues="@array/data_pictogramas_type_fontst_values"
+            android:defaultValue="0"/>
+
+        <CheckBoxPreference android:key="data_pictogramas_show_I"
+            android:title="@string/pref_pictogramas_show_I_text"
+            android:summary="@string/pref_pictogramas_show_I_summary"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference android:key="data_pictogramas_enable_gestures"
+            android:title="@string/pref_pictogramas_enable_gestures_text"
+            android:summary="@string/pref_pictogramas_enable_gestures_summary"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

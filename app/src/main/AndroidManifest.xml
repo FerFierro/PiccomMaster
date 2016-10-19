@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.escom.tt2016.piccom"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" >
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Preferencias" />
+
+        <activity
+            android:name=".InfoContact"
+            android:label="@string/title_activity_info_contact"
+            android:screenOrientation="landscape" >
+        </activity>
+
+        <activity
+            android:name=".Comunicator"
+            android:label="@string/title_activity_comunicator"
+            android:screenOrientation="landscape" >
+        </activity>
+
+        <activity
+            android:name=".Mtopictogramas"
+            android:label="@string/title_activity_mtopictogramas"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".AddPictograma"
+            android:label="@string/title_activity_add_pictograma"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".DelPictograma"
+            android:label="@string/title_activity_del_pictograma"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".PanelBotones"
+            android:label="@string/title_activity_panel_botones"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".CamarayGaleria"
+            android:label="@string/title_activity_camaray_galeria"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".AddPictogramExternal"
+            android:label="@string/title_import_pictograma"
+            android:theme="@android:style/Theme.Holo">
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.SEND" />
+                <data android:mimeType="image/*" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+</manifest>

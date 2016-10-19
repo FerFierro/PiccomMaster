@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="num_colum_dice">4</integer>
+    <integer name="dim_pictogramas">200</integer>
+
+</resources>

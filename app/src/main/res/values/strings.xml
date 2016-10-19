@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PicCom</string>
+    <string name="action_settings">Configuración</string>
+    <string name="add_pictogram_settings">Gestión de Pictogramas</string>
+    <string name="exit">Salir</string>
+    <string name="pref_title_contact">Datos de Contacto</string>
+    <string name="pref_data_contact_name">Nombre</string>
+    <string name="pref_data_contact_year_birth">Año de Nacimiento</string>
+    <string name="pref_data_contact_address">Dirección</string>
+    <string name="pref_data_contact_cod_post">Código Postal</string>
+    <string name="pref_data_contact_country">Ciudad</string>
+    <string name="pref_data_contact_name_mother">Madre</string>
+    <string name="pref_data_contact_name_father">Padre</string>
+    <string name="pref_data_contact_tlf_mother">Teléfono</string>
+    <string name="pref_data_contact_tlf_father">Teléfono</string>
+    <string name="pref_data_contact_tlf_other">Otros Teléfonos</string>
+    <string name="pref_data_contact_avatar">Foto</string>
+    <string name="pref_title_location">Ubicación</string>
+    <string name="pref_location_email">Dirección de correo</string>
+    <string name="pref_location_summary">Dirección de correo a la que se enviará la ubicación</string>
+    <string name="title_activity_info_contact">Información del Usuario</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="error_location">No se puede conseguir la posición del terminal</string>
+    <string name="no_enabled_location">La configuración de localización no esta configurada</string>
+    <string name="email_location_subject">Localización PicCom</string>
+
+    <string name="pref_location_timeout">Timeout en Segundos para la recepción de la posición GPS</string>
+    <string name="title_activity_comunicator">Comunicador</string>
+    <string name="title_activity_mtopictogramas">Mantenimiento de Pictogramas</string>
+    <string name="title_activity_add_pictograma">Añadir Pictograma</string>
+    <string name="title_AddPictograma">Añadir Pictograma</string>
+    <string name="title_AddPictograma_Texto">Texto:</string>
+    <string name="title_AddPictograma_Pictograma">Pictograma</string>
+    <string name="texto_AddPictograma_botonSelectPicto">Seleccionar Pictograma</string>
+    <string name="title_AddPictograma_btnGuardarpicto">Guardar</string>
+    <string name="title_AddPictograma_btnCancelar">Cancelar</string>
+    <string name="title_activity_del_pictograma">Borrar Pictograma</string>
+    <string name="textDelPictograma">¿Estas seguro que desar borrar este pictograma?</string>
+    <string name="textoBotonSi">SI</string>
+    <string name="textoBotonNo">NO</string>
+    <string name="import_pictogram_settings">Importar Pictogramas</string>
+    <string name="exportPictograms_settings">Exportar Pictogramas</string>
+    <string name="pref_pictogramas_show_text">Mostrar Texto</string>
+    <string name="pref_pictogramas_show_text_summary">Indica si debajo de los pictogramas se muestra el texto.</string>
+    <string name="pref_pictogramas_type_fonts">Tipo de Letra</string>
+    <string name="pref_pictogramas_type_fonts_summary">Seleccione el tipo de letra de los pictogramas</string>
+    <string name="title_activity_panel_botones">Opciones</string>
+    <string name="title_activity_camaray_galeria">Seleccione Opción</string>
+    <string name="YO">Yo</string>
+    <string name="pref_pictogramas_show_I_text">Mostrar Pictograma Yo</string>
+    <string name="pref_pictogramas_show_I_summary">Hace que aparezca el pictograma "YO" siempre al iniciar una frase</string>
+    <string name="title_import_pictograma">Importar Pictograma</string>
+    <string name="title_combo_categoria">Categoría:</string>
+
+    <string name="pref_pictogramas_enable_gestures_text">Usar Gestos</string>
+    <string name="pref_pictogramas_enable_gestures_summary">Activa o desactiva los gestos en el comunicador.</string>
+
+    <string name="cat_people">Personas</string>
+    <string name="cat_objects">Objetos</string>
+    <string name="cat_verbs">Verbos</string>
+    <string name="cat_places">Lugares</string>
+    <string name="cat_moods">Estados de ánimos</string>
+    <string name="cat_social">Social</string>
+
+    <string name="email_not_set">No esta configurado algún dato para el envio de la ubicación</string>
+
+    <string name="pref_location_from_email">Usuario de Correo</string>
+    <string name="pref_location_from_summary">El usuario de correo es una cuenta de correo Gmail desde la que enviará el mail</string>
+    <string name="pref_location_timeout_title">Timeout</string>
+    <string name="pref_location_pwd_email">Password de la cuenta de correo</string>
+    <string name="pref_location_pwd_summary">Password de la cuenta de correo que se usa para enviar el mail</string>
+    <string name="pref_location_caption">Datos para el envio de la ubicación</string>
+
+    <string name="error_req_addpictograma">Para crear un pictograma es necesario un texto y una imagen</string>
+</resources>

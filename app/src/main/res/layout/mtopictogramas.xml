@@ -1,0 +1,48 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/EstiloGeneralPicCom"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <GridView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/listaPic"
+        android:layout_gravity="center"
+        android:columnWidth="@dimen/dimPicMto"
+        android:choiceMode="singleChoice"
+        android:numColumns="auto_fit"
+        android:stretchMode="spacingWidthUniform"
+        android:horizontalSpacing="5dp"
+        android:gravity="center"
+        android:verticalSpacing="5dp"
+        android:layout_weight="3"
+        android:longClickable="false"
+        android:listSelector="#ff8100" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:id="@+id/addPictogram"
+            android:src="@drawable/btnaddpic_selector"
+            style="@style/btnPagPrincipal"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:id="@+id/delPictogram"
+            android:src="@drawable/btnpapelera_selector"
+            style="@style/btnPagPrincipal"
+            android:layout_height="match_parent" />
+
+        <ImageButton
+            android:id="@+id/backPictrograma"
+            android:src="@drawable/btnvolver_selector"
+            style="@style/btnPagPrincipal"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>

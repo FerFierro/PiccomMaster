@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="data_pictogramas_show_text_options">
+        <item>Pictograma y Texto</item>
+        <item>Solo Pictograma</item>
+    </string-array>
+    <string-array name="data_pictogramas_show_text_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="data_pictogramas_type_fonts_options">
+        <item>Normal</item>
+        <item>Escolar</item>
+    </string-array>
+    <string-array name="data_pictogramas_type_fontst_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="category_spinner">
+        <item>Personas</item>
+        <item>Objetos</item>
+        <item>Verbos</item>
+        <item>Lugares</item>
+        <item>Estados de Ánimo</item>
+        <item>Social</item>
+    </string-array>
+</resources>

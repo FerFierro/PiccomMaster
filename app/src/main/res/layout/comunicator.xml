@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/EstiloGeneralPicCom"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <android.gesture.GestureOverlayView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gestures"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gestureStrokeType="multiple"
+        android:fadeOffset="800">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false">
+
+            <GridView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:id="@+id/gvFrase"
+                android:numColumns="auto_fit"
+                android:stretchMode="spacingWidthUniform"
+                android:choiceMode="singleChoice"
+                android:columnWidth="@dimen/dimPicFrase"
+                android:verticalSpacing="2dp"
+                android:horizontalSpacing="2dp"
+                android:fastScrollEnabled="false"
+                android:background="#50ffffff"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="9">
+
+                <ImageButton
+                    android:id="@+id/playFrase"
+                    android:src="@drawable/btn_comunicar_selector"
+                    style="@style/btnPagPrincipal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="53dp" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="53dp"
+                    android:id="@+id/delFrase"
+                    android:src="@drawable/btnpapelera_selector"
+                    style="@style/btnPagPrincipal" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.gesture.GestureOverlayView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false">
+
+        <GridView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/gvCategoria"
+            android:numColumns="auto_fit"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:stretchMode="spacingWidthUniform"
+            android:drawSelectorOnTop="false"
+            android:choiceMode="singleChoice"
+            android:layout_weight="1"
+            android:columnWidth="@dimen/dimPicCom"
+            android:verticalSpacing="4dp"
+            android:horizontalSpacing="4dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout"
+            android:layout_weight="9">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="53dp"
+                android:id="@+id/btnVolverCat"
+                android:src="@drawable/btnvolver_selector"
+                style="@style/btnPagPrincipal"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitStart" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

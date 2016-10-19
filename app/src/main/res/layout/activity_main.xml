@@ -1,0 +1,75 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/EstiloGeneralPicCom"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/logo"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/app_name"
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_comunicar"
+            android:adjustViewBounds="false"
+            android:layout_gravity="center|left|top"
+            android:background="@color/fondobotontransparente"
+            android:src="@drawable/btn_comunicar_selector"
+            android:scaleType="fitCenter" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+        android:layout_gravity="center|right|top">
+
+        <ImageButton
+            android:id="@+id/btn_Localizacion"
+            android:src="@drawable/btnlocalizacion_selector"
+            style="@style/btnPagPrincipal" />
+
+        <ImageButton
+                android:id="@+id/btn_InfoContacto"
+                android:src="@drawable/btninfousuario_selector"
+                style="@style/btnPagPrincipal" />
+
+        <ImageButton
+             android:id="@+id/btnConfiguracion"
+            android:src="@drawable/btnconfiguracion_selector"
+            style="@style/btnPagPrincipal" />
+
+        <ImageButton
+                android:id="@+id/btn_Salir"
+                android:src="@drawable/btnsalir_selector"
+                style="@style/btnPagPrincipal" />
+    </LinearLayout>
+
+</LinearLayout>
